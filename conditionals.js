@@ -18,6 +18,13 @@ function clasificarValor(valor) {
         case 1:
             respuesta = 'alpha';
             break;
-            
+
     }
 }
+
+function calcularRaizCuadrada(num) {
+    if (num < 0) {
+        return undefined; 
+    }
+    return Math.sqrt(num);
+}   
