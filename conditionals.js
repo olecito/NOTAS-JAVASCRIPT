@@ -11,3 +11,13 @@ function interpretarIMC(indiceDeMasaCorporal) {
 }
 
 interpretarIMC(17.8);
+
+function clasificarValor(valor) {
+    let respuesta;
+    switch (valor) {
+        case 1:
+            respuesta = 'alpha';
+            break;
+            
+    }
+}
