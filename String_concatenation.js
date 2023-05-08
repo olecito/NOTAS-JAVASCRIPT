@@ -1,3 +1,4 @@
+
 let name = 'Alan+++==='; // cualquier elemento dentro de un string pierde su valor y se convierte en texto
 
 
@@ -27,11 +28,9 @@ mensajeCompleto += parteFinal; // Concatetenamos dos variables
 let miString;
 
 miString = 'a';
+
 console.log(miString.length); // Esto va a reflejar en consola la cantidad de caracteres que tiene el valor asociado a la variable 
 // Los espacios en blanco y los caracteres especiales contabilizan como caracteres dentro del String
 
 
 
-let prueba = 'JavaScript';
-
-console.log(prueba[prueba.length - 2]);
